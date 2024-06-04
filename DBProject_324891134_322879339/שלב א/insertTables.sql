@@ -4007,3 +4007,4 @@ INSERT INTO Going (Student_id, Trip_maneger_id) VALUES (372925397, 219474397);
 INSERT INTO Going (Student_id, Trip_maneger_id) VALUES (372925398, 219474398);
 INSERT INTO Going (Student_id, Trip_maneger_id) VALUES (372925399, 219474399);
 INSERT INTO Going (Student_id, Trip_maneger_id) VALUES (372925400, 219474400);
+ 
