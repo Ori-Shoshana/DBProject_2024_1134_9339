@@ -1,3 +1,0 @@
-DELETE FROM Arrive
-WHERE Transportation_id = 55
-AND Student_id = 55;
