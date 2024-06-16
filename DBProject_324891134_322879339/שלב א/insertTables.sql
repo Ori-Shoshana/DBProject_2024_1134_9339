@@ -2003,7 +2003,6 @@ INSERT INTO Activity (Activity_id, Date_of_activity, Activity_name, capacity) VA
 INSERT INTO Activity (Activity_id, Date_of_activity, Activity_name, capacity) VALUES (399, TO_DATE('2023-06-24', 'YYYY-MM-DD'), 'Chess', 89);
 INSERT INTO Activity (Activity_id, Date_of_activity, Activity_name, capacity) VALUES (400, TO_DATE('2023-07-04', 'YYYY-MM-DD'), 'Drama', 32);
 
-
 INSERT INTO Trips (Locations, Grade, Trip_maneger_id, Trip_date, Trip_topic) VALUES ('West Danny', '9', 219474001, TO_DATE('2023-08-03', 'YYYY-MM-DD'), 'Sports');
 INSERT INTO Trips (Locations, Grade, Trip_maneger_id, Trip_date, Trip_topic) VALUES ('West Danny', '10', 219474002, TO_DATE('2023-03-15', 'YYYY-MM-DD'), 'History');
 INSERT INTO Trips (Locations, Grade, Trip_maneger_id, Trip_date, Trip_topic) VALUES ('West Danny', '3', 219474003, TO_DATE('2023-11-20', 'YYYY-MM-DD'), 'Sports');
@@ -2404,7 +2403,6 @@ INSERT INTO Trips (Locations, Grade, Trip_maneger_id, Trip_date, Trip_topic) VAL
 INSERT INTO Trips (Locations, Grade, Trip_maneger_id, Trip_date, Trip_topic) VALUES ('West Danny', '9', 219474398, TO_DATE('2023-03-06', 'YYYY-MM-DD'), 'Art');
 INSERT INTO Trips (Locations, Grade, Trip_maneger_id, Trip_date, Trip_topic) VALUES ('West Danny', '3', 219474399, TO_DATE('2023-10-24', 'YYYY-MM-DD'), 'Art');
 INSERT INTO Trips (Locations, Grade, Trip_maneger_id, Trip_date, Trip_topic) VALUES ('West Danny', '1', 219474400, TO_DATE('2023-03-16', 'YYYY-MM-DD'), 'Sports');
-
 
 INSERT INTO Active (Activity_id, Student_id) VALUES (1, 372925001);
 INSERT INTO Active (Activity_id, Student_id) VALUES (2, 372925002);
@@ -3207,6 +3205,7 @@ INSERT INTO Arrive (Transportation_id, Student_id) VALUES (397, 372925397);
 INSERT INTO Arrive (Transportation_id, Student_id) VALUES (398, 372925398);
 INSERT INTO Arrive (Transportation_id, Student_id) VALUES (399, 372925399);
 INSERT INTO Arrive (Transportation_id, Student_id) VALUES (400, 372925400);
+
 INSERT INTO Eater (Meal_id, Student_id) VALUES (1, 372925001);
 INSERT INTO Eater (Meal_id, Student_id) VALUES (2, 372925002);
 INSERT INTO Eater (Meal_id, Student_id) VALUES (3, 372925003);
@@ -3607,6 +3606,7 @@ INSERT INTO Eater (Meal_id, Student_id) VALUES (397, 372925397);
 INSERT INTO Eater (Meal_id, Student_id) VALUES (398, 372925398);
 INSERT INTO Eater (Meal_id, Student_id) VALUES (399, 372925399);
 INSERT INTO Eater (Meal_id, Student_id) VALUES (400, 372925400);
+
 INSERT INTO Going (Student_id, Trip_maneger_id) VALUES (372925001, 219474001);
 INSERT INTO Going (Student_id, Trip_maneger_id) VALUES (372925002, 219474002);
 INSERT INTO Going (Student_id, Trip_maneger_id) VALUES (372925003, 219474003);
@@ -4008,4 +4008,3 @@ INSERT INTO Going (Student_id, Trip_maneger_id) VALUES (372925398, 219474398);
 INSERT INTO Going (Student_id, Trip_maneger_id) VALUES (372925399, 219474399);
 INSERT INTO Going (Student_id, Trip_maneger_id) VALUES (372925400, 219474400);
  
->>>>>>> a4363e423f18729847d8c8bd871dcae1cc112fc2
