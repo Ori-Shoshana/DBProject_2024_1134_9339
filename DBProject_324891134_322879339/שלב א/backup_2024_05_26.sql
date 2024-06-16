@@ -1,4 +1,4 @@
-﻿prompt PL/SQL Developer Export Tables for user SYS@XE
+prompt PL/SQL Developer Export Tables for user SYS@XE
 prompt Created by 212or on Sunday, 26 May 2024
 set feedback off
 set define off
