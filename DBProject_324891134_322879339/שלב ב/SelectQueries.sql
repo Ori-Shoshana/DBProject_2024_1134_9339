@@ -1,5 +1,5 @@
 --Description: Retrieve student names, their grade, and the activities they are participating in during 
---the 10 month in 2023, including the activity date. This query uses subqueries and nested queries.
+--the 10 month in 2023, including the activity date. This query uses subqueries and nested queries. 
 SELECT 
     S.Student_Name,
     S.Grade,
