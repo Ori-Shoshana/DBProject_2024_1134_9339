@@ -2,7 +2,7 @@
 prompt Created by 212or on Monday, 22 July 2024
 set feedback off
 set define off
-
+ 
 prompt Dropping ACTIVITY...
 drop table ACTIVITY cascade constraints;
 prompt Dropping REGISTERD_TO_TRANSPORTAION...
